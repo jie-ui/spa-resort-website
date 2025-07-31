@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Book an Appointment</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header class="head">
+            <img src="images/header.png" alt="pool" class="head-image">
+            <div class="head-text">
+                <h1>Book your wellness getaway</h1>
+               
+            </div>
+        </header>
+        <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li>
+                  <a href="ourServices.html">Services</a>
+                  <ul>
+                     <li><a href="treatments.html">Relaxation Treatment</a></li>
+                      <li><a href="faceCare.html">Face Care Classic</a></li>
+                      <li><a href="Vivifying.html">Vivifying Treatment</a></li>
+                  </ul>
+                  </li>
+              <li><a href="siteMap.html">SiteMap</a></li>
+          </ul>
+      </nav>
+        <main>
+            <form action="mailto:26141171@qq.com" method="POST" class="appointment-form">
+                <!--frist name -->
+                <div class="form-group">
+                  <label for="first-name">First Name:</label>
+                  <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+                </div>
+              
+                <!-- lastname -->
+                <div class="form-group">
+                  <label for="last-name">Last Name:</label>
+                  <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+                </div>
+              
+                <!-- telephone -->
+                <div class="form-group">
+                  <label for="phone">Phone Number:</label>
+                  <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+               
+                </div>
+              
+                <!-- email -->
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+              
+                <!-- service-type -->
+                <div class="form-group">
+                  <label for="service-type">Service Type:</label>
+                  <select id="service-type" name="service-type" required>
+                    <option value="">Select a service</option>
+                    <option value="treatments">Relaxation Treatment</option>
+                    <option value="facecare">Face Care</option>
+                    <option value="Vivifying">Vivifying Treatment</option>
+                   
+                  </select>
+                </div>
+              
+                <!-- appointment -->
+                <div class="form-group">
+                  <label for="appointment-date">Appointment Date:</label>
+                  <input type="date" id="appointment-date" name="appointment-date" required>
+                </div>
+              
+                <!-- appointment -->
+                <div class="form-group">
+                  <label for="appointment-time">Appointment Time:</label>
+                  <input type="time" id="appointment-time" name="appointment-time" required>
+                </div>
+              
+                <!-- health -->
+                <div class="form-group">
+                  <label for="health-issues">Any Health Issues or Food Allergies:</label>
+                  <textarea id="health-issues" name="health-issues" rows="4" placeholder="Please specify any health concerns or allergies"></textarea>
+                </div>
+              
+                <!-- comments -->
+                <div class="form-group">
+                  <label for="comments">Additional Comments:</label>
+                  <textarea id="comments" name="comments" rows="4" placeholder="Any additional comments"></textarea>
+                </div>
+              
+                <!-- submit -->
+                <div class="form-group">
+                  <input type="submit">
+                </div>
+              </form>
+        </main>
+     
+        <footer>
+            <p>&copy;Jie Yang 301314408 Web Interface Design - Fall 2024.Images and information sourced from: Thermëa,Pexels,Sensei,pixabay </p>
+        </footer>
+    
+    </body>
+
+</html>
