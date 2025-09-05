@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>treatments</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <!--header-->
+  <header class="head">
+    <img src="images/contact.png" alt="contact" class="head-image">
+    <div class="head-text">
+      <h1>CONTACT US</h1>
+
+    </div>
+  </header>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>|
+      <li>
+        <a href="ourServices.html">Services</a>
+        <ul>
+          <li><a href="treatments.html">Relaxation Treatment</a></li>
+          <li><a href="faceCare.html">Face Care Classic</a></li>
+          <li><a href="Vivifying.html">Vivifying Treatment</a></li>
+        </ul>
+      </li>|
+      <li><a href="appointment.html"> Appointment</a></li>|
+      <li><a href="ContactUs.html">Contact Us</a></li>|
+      <li><a href="siteMap.html">SiteMap</a></li>
+    </ul>
+  </nav>
+  <main class="contact-page">
+    <!-- info -->
+    <section class="contact-info">
+      <h2>Get in Touch</h2>
+      <p>If you have any questions, please reach out to us.</p>
+      <ul>
+        <li><strong>Phone:</strong> +1 (416) 123-4567</li>
+        <li><strong>Email:</strong> info@wellnesspa.com</li>
+        <li><strong>Address:</strong> 123 Serenity Street, Toronto, ON, Canada</li>
+      </ul>
+    </section>
+
+    <!-- contact form -->
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required placeholder="Enter your name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Write your message here"></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+
+
+    <section class="contact-weather">
+      <h2>Local Weather</h2>
+      <div id="weather-box">Loading weather...</div>
+    </section>
+
+    <!-- Google Maps -->
+    <section class="contact-map">
+     <h2>Our Location</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.4672361691794!2d-79.38318458450238!3d43.65322507912182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb34b00b5aaf%3A0x97a41c14f61dc9f4!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1616625255942!5m2!1sen!2sca"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+      </iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Jie Yang 2024 Wellness Spa. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
