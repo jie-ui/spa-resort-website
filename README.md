@@ -1,36 +1,53 @@
-# Vivifying Skincare Website
+Tranquil Haven Spa & Resort 
 
-A multi-page responsive website for a fictional skincare and wellness brand, designed to showcase services, treatments, and appointment scheduling.
+A multi-page website project built with HTML, CSS, and JavaScript, showcasing a fictional spa and resort.  
+The site includes 8 different pages with interactive features and is deployed on GitHub Pages.
 
-##  Features
-- Fully responsive layout using Flexbox and media queries
-- Multiple pages including Home, Services, Treatments, and Appointment
-- Internal navigation with consistent styling across all pages
-- Image assets for visual presentation
-- Clean HTML5 + CSS3 code structure
+---
 
-##  Tech Stack
-- HTML5
-- CSS3
-- Responsive Design (Flexbox, Media Queries)
-- GitHub Pages (for deployment)
+##  Project Structure
+- `index.html` — Home page  
+- `ourServices.html` — Services overview  
+- `treatments.html` — Relaxation Treatment  
+- `faceCare.html` — Face Care Classic  
+- `Vivifying.html` — Vivifying Treatment  
+- `appointment.html` — Appointment booking  
+- `contactUS.html` — Contact page  
+- `siteMap.html` — Sitemap  
+- `style.css` — Global styles  
+- `script.js` — Interactive features (navigation, tab switching, smooth scroll, etc.)  
+- `images/` — Image assets  
+- `video/` — Video assets  
+
+---
 
 ##  Live Demo
- https://jie-ui.github.io/Spa-Website/
+[ View Website](https://jie-ui.github.io/Spa-Website/)
+
+---
+
+##  Features
+- Responsive design (desktop and mobile friendly)  
+- Sticky navigation with active link highlighting  
+- Smooth scrolling for anchor links  
+- Tabbed showcase section with background videos  
+- Multi-page structure for easy navigation  
+- Deployed via GitHub Pages  
+
+---
+
+##  Tech Stack
+- **HTML5**  
+- **CSS3** (Flexbox, Grid)  
+- **JavaScript (ES6)** for DOM manipulation and event handling  
+- **Git & GitHub Pages** for version control and deployment  
+
+## Credits
+
+This project is for academic/learning purposes.
+Images and videos are sourced from Pexels, Pixabay, Thermëa, Sensei and are used only for educational demonstration.
 
 
-## 📁 Folder Structure
-├── index.html
-├── appointment.html
-├── faceCare.html
-├── ourServices.html
-├── treatments.html
-├── siteMap.html
-├── Vivifying.html
-├── style.css
-├── images/
 
-##  What I Learned
-- Building multi-page websites with clean internal linking
-- Creating responsive layouts without frameworks
-- Organizing assets and maintaining consistent UI/UX
+
+
