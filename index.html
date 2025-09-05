@@ -1,92 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--Created by: JieYang-301314408 - Created on: November 24, 2024-->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tranquil Haven Spa & Resort</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tranquil Haven Spa & Resort</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js" defer></script>
 </head>
+
 <body>
-    <!-- Header Section -->
-    <header class="head">
-        <img src="images/appo2.png" alt="Pool view" class="head-image">
-        <div class="head-text">
-            <h1>Tranquil Haven Spa & Resort</h1>
-          
-        </div>
-    </header>
+  <!-- Header Section -->
+  <header class="head">
+    <img src="images/appo2.png" alt="Pool view" class="head-image">
+    <div class="head-text">
+      <h1>Tranquil Haven Spa & Resort</h1>
 
-    <!-- Navigation Bar -->
-    <nav>
+    </div>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>|
+      <li>
+        <a href="ourServices.html">Services</a>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li>
-                <a href="ourServices.html">Services</a>
-                <ul>
-                   <li><a href="treatments.html">Relaxation Treatment</a></li>
-                    <li><a href="faceCare.html" >Face Care Classic</a></li>
-                    <li><a href="Vivifying.html">Vivifying Treatment</a></li>
-                </ul>
-                </li>
-            <li><a href="appointment.html">Book an Appointment</a></li>
-            <li><a href="siteMap.html">SiteMap</a></li>
+          <li><a href="treatments.html">Relaxation Treatment</a></li>
+          <li><a href="faceCare.html">Face Care Classic</a></li>
+          <li><a href="Vivifying.html">Vivifying Treatment</a></li>
         </ul>
-    </nav>
+      </li>|
+      <li><a href="appointment.html"> Appointment</a></li>|
+      <li><a href="ContactUs.html">Contact Us</a></li>|
+      <li><a href="siteMap.html">SiteMap</a></li>
+    </ul>
+  </nav>
 
-    <!-- Main Content -->
-    <main>
-        <section class="mission">
-            <h2>Welcome to Our Spa Village</h2>
-            <p>To provide a sanctuary where the mind, body, and spirit can find harmony through nature, wellness, and relaxation.</p>
-            <p>We craft personalized wellness journeys that reconnect you with nature and your best self.</p>
-            <p>Your wellness, our priority.</p>
-        </section>
-         
-          
-           
-                <div class="image-row">
-                
-                    <figure class="image-block">
-                        <img src="images/personal.png" alt="Spring pool">
-                        <figcaption><h3>Peaceful Hot Spring Pool</h3></figcaption>
-                    </figure>
-                
-               
-                    <figure class="image-block">
-                        <img src="images/personal2.png" alt="Outdoor Hot Tube">
-                        <figcaption><h3>Outdoor Hot Tub Experience</h3></figcaption>
-                    </figure>
-                
-                 
-                    <figure class="image-block">
-                        <img src="images/family.png" alt="Gathering by the Warm Fireplace"> 
-                        <figcaption></figcaption><h3>Gathering by the Warm Fireplace</h3></figcaption>
-                     </figure>
-                </div>
-          
+  <!-- Main Content -->
+  <main>
+    <section class="mission">
+      <h2>Welcome to Our Spa Village</h2>
+      <p>To provide a sanctuary where the mind, body, and spirit can find harmony through nature, wellness, and
+        relaxation.</p>
+      <p>We craft personalized wellness journeys that reconnect you with nature and your best self.</p>
+      <p>Your wellness, our priority.</p>
+    </section>
 
-        <!--Gust say-->
-        <section class="guestsay">
-            <h2>What Our Guests Say</h2>
-            <article class="guestsays">
-                <p>"A truly transformative experience! The environment is peaceful and the staff is incredibly attentive." - Jane D.</p>
-            </article>
-            <article class="guestsays">
-                <p>"The hot stone therapy was magical. I felt rejuvenated and completely stress-free!" - Mark T.</p>
-            </article>
-            <article class="guestsays">
-                <p>"The aromatherapy massage was exactly what I needed. It was deeply relaxing, 
-                    and I could feel my tension melting away." - Sarah L
-                </p>
-            </article>
-        </section>
-    </main>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy;Jie Yang 301314408 Web Interface Design - Fall 2024.Images and information sourced from: Thermëa,Pexels,Sensei,pixabay </p>
-       </footer>
+
+    <div class="image-row">
+
+      <figure class="image-block">
+        <img src="images/personal.png" alt="Spring pool">
+        <figcaption>
+          <h3>Peaceful Hot Spring Pool</h3>
+        </figcaption>
+      </figure>
+
+
+      <figure class="image-block">
+        <img src="images/personal2.png" alt="Outdoor Hot Tube">
+        <figcaption>
+          <h3>Outdoor Hot Tub Experience</h3>
+        </figcaption>
+      </figure>
+
+
+      <figure class="image-block">
+        <img src="images/family.png" alt="Gathering by the Warm Fireplace">
+        <figcaption></figcaption>
+        <h3>Gathering by the Warm Fireplace</h3>
+        </figcaption>
+      </figure>
+    </div>
+
+
+    <section id="spa-showcase" class="showcase">
+      <h2 class="title">The Latest Selection</h2>
+      <p>Your escape awaits. Discover it here.</p>
+      <p>Expertly curated to elevate your well-being</p>
+
+      <!-- Tab button -->
+      <div class="showcase-tabs" role="tablist" aria-label="Highlights">
+        <button class="tab active" role="tab" aria-selected="true" aria-controls="panel-pool" id="tab-pool"
+          type="button">
+          <strong>Unwind</strong>
+        </button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-tub" id="tab-tub" type="button">
+          <strong>Transform</strong>
+        </button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-fire" id="tab-fire" type="button">
+          <strong>Recharge</strong>
+        </button>
+      </div>
+
+      <!-- Video -->
+      <div class="showcase-viewport">
+        <div id="panel-pool" class="panel active" role="tabpanel" aria-labelledby="tab-pool">
+          <figure class="video-block">
+            <video id="videoPool" preload="none" muted autoplay playsinline poster="cover.jpg" loop>
+              <source src="video/unwind.mp4" type="video/mp4">
+            </video>
+
+          </figure>
+        </div>
+
+        <div id="panel-tub" class="panel" role="tabpanel" aria-labelledby="tab-tub" hidden>
+          <figure class="video-block">
+            <video id="videoPool" preload="none" muted autoplay playsinline poster="cover.jpg" loop>
+              <source src="video/transform.mp4" type="video/mp4">
+            </video>
+
+          </figure>
+        </div>
+
+        <div id="panel-fire" class="panel" role="tabpanel" aria-labelledby="tab-fire" hidden>
+          <figure class="video-block">
+            <video id="videoPool" preload="none" muted autoplay playsinline poster="cover.jpg" loop>
+              <source src="video/rechange.mp4" type="video/mp4">
+            </video>
+
+          </figure>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+
+
+    <!--Gust say-->
+    <section class="guestsay">
+      <h2>What Our Guests Say</h2>
+      <article class="guestsays">
+        <p>"A truly transformative experience! The environment is peaceful and the staff is incredibly attentive." -
+          Jane D.</p>
+      </article>
+      <article class="guestsays">
+        <p>"The hot stone therapy was magical. I felt rejuvenated and completely stress-free!" - Mark T.</p>
+      </article>
+      <article class="guestsays">
+        <p>"The aromatherapy massage was exactly what I needed. It was deeply relaxing,
+          and I could feel my tension melting away." - Sarah L
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy;Jie Yang 301314408 Web Interface Design - Fall 2024.Images and information sourced from:
+      Thermëa,Pexels,Sensei,pixabay </p>
+  </footer>
+
+
 </body>
+
 </html>
