@@ -22,7 +22,7 @@ The site includes 8 different pages with interactive features and is deployed on
 ---
 
 ##  Live Demo
-[ View Website](https://jie-ui.github.io/Spa-Website/)
+[ View Website]https://jie-ui.github.io/spa-resort-website/))
 
 ---
 
